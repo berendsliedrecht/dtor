@@ -1,4 +1,7 @@
-# TypeScript Deconstructor
+# Experimental TypeScript Deconstructor
+
+> NOTE: there is an example below on how to do this without this library
+> you might have to add support for the `Symbol.dispose` and `Symbol.asyncDispose` yourself
 
 Requires TypeScript 0.5.2-beta or newer
 
@@ -58,6 +61,22 @@ class SomeExample {
 
     @Deconstructor()
     public deconstructor() {
+        console.log("deconstructed");
+    }
+}
+
+using cls = new SomeExample() as Deconstructable<SomeExample>;
+```
+
+## Without this library
+
+```typescript
+class SomeExample {
+    public constructor() {
+        console.log("constructed");
+    }
+
+    [Symbol.dispose]() {
         console.log("deconstructed");
     }
 }

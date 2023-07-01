@@ -1,8 +1,13 @@
 {
   "name": "dtor",
-  "version": "0.0.0",
+  "version": "0.0.2",
   "description": "Very small library which adds a deconstructor to classes in typescript",
-  "main": "index.js",
+  "homepage": "https://github.com/blu3beri/dtor",
+  "repository": {
+    "url": "https://github.com/blu3beri/dtor",
+    "type": "git"
+  },
+  "main": "build/index.js",
   "scripts": {
     "build": "tsc -p ./tsconfig.json",
     "start": "pnpm build && node build/index.js"
