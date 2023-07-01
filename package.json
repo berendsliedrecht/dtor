@@ -1,0 +1,21 @@
+{
+  "name": "dtor",
+  "version": "0.0.0",
+  "description": "Very small library which adds a deconstructor to classes in typescript",
+  "main": "index.js",
+  "scripts": {
+    "build": "tsc -p ./tsconfig.json",
+    "start": "pnpm build && node build/index.js"
+  },
+  "files": ["build"],
+  "keywords": [],
+  "author": "Berend Sliedrecht <blu3beri@proton.me>",
+  "license": "MIT",
+  "devDependencies": {
+    "@types/node": "20.3.3",
+    "typescript": "5.2.0-beta"
+  },
+  "dependencies": {
+    "disposablestack": "1.1.0"
+  }
+}

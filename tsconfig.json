@@ -1,0 +1,14 @@
+{
+  "compilerOptions": {
+    "lib": ["esnext", "dom"],
+    "target": "es2015",
+    "module": "commonjs",
+    "esModuleInterop": true,
+    "forceConsistentCasingInFileNames": true,
+    "strict": true,
+    "outDir": "build",
+    "emitDecoratorMetadata": true,
+    "experimentalDecorators": true,
+    "declaration": true
+  }
+}
