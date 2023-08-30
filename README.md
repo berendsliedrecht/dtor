@@ -1,9 +1,6 @@
 # Experimental TypeScript Deconstructor
 
-> NOTE: there is an example below on how to do this without this library
-> you might have to add support for the `Symbol.dispose` and `Symbol.asyncDispose` yourself
-
-Requires TypeScript 0.5.2-beta or newer
+Requires TypeScript 0.5.2 or newer
 
 ## Example tsconfig.json
 
