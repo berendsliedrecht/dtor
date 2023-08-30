@@ -1,6 +1,6 @@
 {
   "name": "dtor",
-  "version": "0.0.2",
+  "version": "0.1.0",
   "description": "Very small library which adds a deconstructor to classes in typescript",
   "homepage": "https://github.com/blu3beri/dtor",
   "repository": {
@@ -18,9 +18,6 @@
   "license": "MIT",
   "devDependencies": {
     "@types/node": "20.3.3",
-    "typescript": "5.2.0-beta"
-  },
-  "dependencies": {
-    "disposablestack": "1.1.0"
+    "typescript": "~5.2.2"
   }
 }
